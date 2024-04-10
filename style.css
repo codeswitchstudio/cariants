@@ -1,8 +1,21 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #E5E5E5;
+  font-family: "Inconsolata", monospace;
+  /* background-color: #E5E5E5; */
 }
 canvas {
   display: block;
+    background-color: #E5E5E5;
+
+}
+h1, 
+p {
+  /* background-color: transparent; */
+  /* background-color: #E5E5E5;  */
+  margin-left: 20px;
+  width: 30%;
+}
+.quote {
+  font-style: italic;
 }

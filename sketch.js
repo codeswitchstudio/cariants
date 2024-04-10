@@ -13,8 +13,15 @@ function setup() {
 //   hey.textAlign(CENTER);
 //   hey.text('hey', 150, 50)
    
-  let cnv = createCanvas(800, 800, WEBGL);
-  cnv.position(windowWidth/2 - 400, 0);
+
+function resizeCanvas () {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+ var cnv = createCanvas(windowWidth, windowHeight, WEBGL);
+  // cnv.position(windowWidth/2 - 400, 0);
+  cnv.position(0,0);
+  cnv.style('z-index', '-1');
   
   
   img = loadImage('assets/covTest.png');
