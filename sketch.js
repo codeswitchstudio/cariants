@@ -13,6 +13,15 @@ function setup() {
 //   hey.textAlign(CENTER);
 //   hey.text('hey', 150, 50)
    
+mobileMax = 500;
+
+w = windowWidth;
+
+createCanvas(windowWidth, windowHeight);
+
+// something kind of like this ...
+
+if (w < mobileMax) { h1 = 36; h2 = 25; p = 16; }
 
 function resizeCanvas () {
   resizeCanvas(windowWidth, windowHeight);
